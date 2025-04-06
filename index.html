@@ -2,38 +2,43 @@
 <html>
 
 <head>
-    <title>
-        digital_arts
-    </title>
+    <!-- Generic Favicon -->
+
+    <link href="style.css" rel="stylesheet" />
+ 
+<link rel="icon" type="image/png" href="/static/images/favicon.png">
+
+<!-- Fallback for older browsers -->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+
+
+    <title>digital_arts</title>
+    
 </head>
 
-<body>
 
-    <header 
-    style="
-    background-color: black; color: aliceblue; font-style: italic;
-    display:    flex;
-    flex-direction: row;
-    justify-content: space-between;
-    white-space: nowrap;
-    min-width: fit-content;
-    gap: 2rem;
-    "
-    >
-    <div style="font-size: 4rem; margin-left: 3rem;">
-        Digital Arts
+<body>
+<div class="img-container"
+>
+    <img  class="background-image"
+    src="static/images/img_flowers.jpg" 
+    alt=""
+    />
+</div
+
+>
+
+    <header>
+          <div style="font-size: 4rem; margin-left: 1rem;">
+        Digital Monet
     </div>
     
-    <section class="menu"
-    style='margin-right: 3rem;
-    display: flex;
-    flex-direction:row;
-    gap: 3rem;
-    align-items: end;
-    margin-bottom: 0.5rem;
-    flex-wrap: wrap;
-    '
+    <section class="menu" id="main-page-menu"
+    
     >
+        <div></div>
+    
         <div>
             biography 
         </div>
@@ -46,7 +51,7 @@
     </header>
     <!-- <main style="border-top: 1px solid black ; margin-top: 1rem; padding-top: 1rem;"> -->
     <main >
-        <p style="margin: 0 auto;">paragraph of text</p>
+        <p >paragraph of text</p>
         <div>Here will be the digital exhibition </div>
     </main>
     <footer>
@@ -54,5 +59,6 @@
     </footer>
 
 </body>
+
 
 </html>
